@@ -1,0 +1,35 @@
+_id: req_e7e98715ad3249aca8a25806219edf0f
+type: Request
+parentId: wrk_1da40cd8e85b4412935179087d644015
+modified: 1663857630082
+created: 1663857478806
+url: https://webapi.blue-version.com/16/api/Main/LoginClient
+name: Log in
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Data":"Nz9J6v1qE+bK/jXgirEcKyTswEYuSwEpv/Dxv24rPX+iBY9aASaRfSfoad6cPfXdp5U+fUJdienH2GWeZQsUnUl++lFkxBpBT8ckvVPAC6aZrqbabB9pmCR3hTbrmKl7sz8Oa71pr12Z4fYc7oveeqGxuEWfJdc7I4zBOO4KVy2CzRnb/s+kZtmznQSJMc+ZZKk8q2Z5okyIHcWPNlJmWew5OTPjuLNAazjd7N4MXt019WBiwSGRrxXYe/u0SSnw0SMnfy86EgwfD6UeR/Ohjo+BX2qwWuf4HFMekAvQ7D8hs1kA2m2Se+P5PpiG1H06h0EgA2MLNEfekCd+pFp77Q=="}'
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer d7b192733354491da8f1a10e1b04f560
+    id: pair_00a685b26e554acf814431fc09596a80
+  - name: Content-Type
+    value: application/json
+    id: pair_64af82025de54579b890e8bd239f570d
+  - name: Cookie
+    value: AWSALBTG=imDJ1GBdbOAGlCiGJeASETHj79GXWMI80Ym9zH%2FP2LHnKgQKKzeXtIvLSVnxMkKJGQzIQg4TvO8rSLwQaDrw2LvEer7KvzxXkjpEto%2FSSq6l7un0JXRJsl9NPC6IRCUqRBgoeNTaJLLC66%2FSooAqfpaDjIntKtGjLgQLENwRYgJ9naxtJuc%3D;
+      AWSALBTGCORS=imDJ1GBdbOAGlCiGJeASETHj79GXWMI80Ym9zH%2FP2LHnKgQKKzeXtIvLSVnxMkKJGQzIQg4TvO8rSLwQaDrw2LvEer7KvzxXkjpEto%2FSSq6l7un0JXRJsl9NPC6IRCUqRBgoeNTaJLLC66%2FSooAqfpaDjIntKtGjLgQLENwRYgJ9naxtJuc%3D
+    id: pair_27d08369f99644608bf8ca8590da0004
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663857478806
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

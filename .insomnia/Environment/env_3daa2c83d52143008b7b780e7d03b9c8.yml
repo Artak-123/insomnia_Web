@@ -1,0 +1,17 @@
+_id: env_3daa2c83d52143008b7b780e7d03b9c8
+type: Environment
+parentId: env_83ce3ea3b436491e032e866c471e3a024adc4ea6
+modified: 1663857559190
+created: 1663857539378
+name: Web
+data:
+  url: https://webapi.blue-version.com
+  token: "{% response 'body', 'req_e7e98715ad3249aca8a25806219edf0f',
+    'b64::JC5Ub2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1663857539378

@@ -1,0 +1,30 @@
+_id: req_a15c6bf4f460426b966886331b19a45a
+type: Request
+parentId: wrk_1da40cd8e85b4412935179087d644015
+modified: 1663857473773
+created: 1663857420457
+url: https://webapi.blue-version.com/16/api/Main/RegisterClient
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"MobileCode":"+98","LastName":"jkkdfsjhjhk","Email":"LKcdJfxhLK@hlsfkhl.com","FirstName":"hkjdkhklk","Password":"User123456","CurrencyId":"IRT","MobileNumber":"+98461552502845","confirmPassword":"User123456","TermsConditionsAccepted":true,"LanguageId":"en"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_045e65e527fc40cf90e370483c63e239
+  - name: Cookie
+    value: AWSALBTG=pbYUm7zCk1gc9sQtFROCZmDsxKt9sL3sa1J1djbqMyOP%2Bl5D6yeK8YznxpooyuMwv61mBrtGX1I4J4I1gtSfawxdDnmGMxyEsua17bnde6AMsbsIWYPBkLSjOVfQXNT1jex%2FepVgH5VWSQVVdV%2FHlnJ4aSQgjSxurz30pO6mqRQyHxtkfXs%3D;
+      AWSALBTGCORS=pbYUm7zCk1gc9sQtFROCZmDsxKt9sL3sa1J1djbqMyOP%2Bl5D6yeK8YznxpooyuMwv61mBrtGX1I4J4I1gtSfawxdDnmGMxyEsua17bnde6AMsbsIWYPBkLSjOVfQXNT1jex%2FepVgH5VWSQVVdV%2FHlnJ4aSQgjSxurz30pO6mqRQyHxtkfXs%3D
+    id: pair_431563668339474396dc18826114d839
+authentication: {}
+metaSortKey: -1663857420457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

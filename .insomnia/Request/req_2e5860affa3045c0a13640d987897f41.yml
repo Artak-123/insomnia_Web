@@ -1,0 +1,34 @@
+_id: req_2e5860affa3045c0a13640d987897f41
+type: Request
+parentId: wrk_1da40cd8e85b4412935179087d644015
+modified: 1663858150202
+created: 1663857634521
+url: https://webapi.blue-version.com/16/api/Main/ApiRequest
+name: Get Client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Controller":"Client","Method":"GetClientAccounts","Token":"{{ _.token
+    }}","ClientId":43819,"PartnerId":16,"RequestData":"{\"ClientId\":43819}"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer d7b192733354491da8f1a10e1b04f560
+    id: pair_85f2a75ff7f4447c8cc7fab09e642067
+  - name: Content-Type
+    value: application/json
+    id: pair_b5022c65fca442448493c9222557a2d3
+  - name: Cookie
+    value: AWSALBTG=QGUgdQ52oI6koLdHY%2BjtbhZHTX6TZPMLB%2BDWM449o3TjUtkQEDWxSKHBZ0od%2BgqGFHwwM%2B6m0JAJlvP%2F79MYaFDTsmdbgu%2F25%2FINusmFZFNd89Pv8wZhV6xRy4nRQUxCY7dEqhPHjQWE9KglU9fjE1nHeg0xDDtMs75NZqjeV4kInDde%2BKM%3D;
+      AWSALBTGCORS=QGUgdQ52oI6koLdHY%2BjtbhZHTX6TZPMLB%2BDWM449o3TjUtkQEDWxSKHBZ0od%2BgqGFHwwM%2B6m0JAJlvP%2F79MYaFDTsmdbgu%2F25%2FINusmFZFNd89Pv8wZhV6xRy4nRQUxCY7dEqhPHjQWE9KglU9fjE1nHeg0xDDtMs75NZqjeV4kInDde%2BKM%3D
+    id: pair_5755197914024cd2abc8003a3ed7a370
+authentication: {}
+metaSortKey: -1663857634521
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
